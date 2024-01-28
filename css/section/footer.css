@@ -1,0 +1,111 @@
+
+.footer__holder{
+    display: flex;
+justify-content: space-between;
+margin-top: 60px;
+}
+.footer{
+    background: var(--fff-8-f-6, #FFF8F6);
+    margin-top: 130px;
+}
+
+.footer__good4me{
+    width: 30%;
+}
+.footer__good4me-title{
+    text-align: center;
+    margin-bottom: 12px;
+}
+.footer__good4me-desc{
+    text-align: center;
+    color: var(--454545, #454545);
+    font-size: 16px;
+    
+}
+.footer__keep-in-touch{
+    width: 60%;
+    text-align: center;
+    position: relative;
+}
+.footer__keep-in-touch-title h4{
+    color: #000;
+    font-weight: 500;
+    font-size: 26px;
+    
+}
+.footer__keep-in-touch-desc{
+    color: var(--454545, #454545);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+.footer__keep-in-touch-input{
+    position: relative;
+    border-bottom: 2px solid #000;
+    width: 83%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.footer__keep-in-touch-input input{
+    display: block;
+    width: 100%;
+    height: 3em;
+    line-height: 3em;
+    border-radius: 1.5em;
+    border: none;
+    background-color: inherit;
+
+}
+.footer__keep-in-touch-input button{
+    position: absolute;
+    top: .4em;
+    right: .4em;
+    height: 2.2em;
+    color: var(--f-6623-e, #F6623E);
+    font-size: 16px;
+    font-weight: 600;
+    background: inherit;
+    border: none;
+    text-transform: uppercase;
+}
+.footer__more-info{
+    width: 30%;
+}
+
+.footer__more-info-title h4{
+    text-transform: uppercase;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    text-align: center;
+}
+.footer__more-info-list{
+    text-align: center;
+    
+}
+.footer__more-info-list li{
+    list-style: none;
+    padding-bottom:7px ;
+}
+.footer-top{
+    background: url('../../public/images/footer-top.png'), lightgray 50% / cover no-repeat;
+    height: 129px;
+    
+}
+.social-media-links{
+    border-top: 1px solid rgba(0.51, 0.51, 0.51, 0.1) ;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+.social-media-links div{
+    width: 33%;
+}
+.social-media-links__powered span{
+    color: #F6623E;
+}

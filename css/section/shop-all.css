@@ -1,0 +1,18 @@
+.shop-all{
+    margin-top: 140px;
+}
+.shop-all__item{
+    width: 270px;
+}
+.shop-all__items{
+    display: flex;
+    justify-content: space-around;
+}
+.shop-all__button{
+    text-align: center;
+    margin-top: 60px;
+}
+.shop-all__title h4{
+    font-size: 14px;
+    padding-top: 12px;
+}

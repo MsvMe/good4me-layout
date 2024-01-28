@@ -1,0 +1,49 @@
+.hero-section{
+    height: 641px;
+    position: relative;
+    background: url('../../public/images/ironBoost.png'), lightgray 50% / cover no-repeat;
+    
+}
+.border{
+    height: 129px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -30px;
+    background: url('../../public/images/tol.jpg');
+}
+.hero-section__info{
+    position: absolute;
+    width: 529px;
+    height: 284px;
+    right: 1px;
+    bottom: 174px;
+}
+.hero-section__info h4{
+    color: #F6623E;
+    font-size: 26px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 42px;
+    margin-bottom: 4px;
+}
+.hero-section__info h1{
+    color: #000;
+    font-size: 55px;
+    font-weight: 600;
+    margin-bottom: 11px;
+}
+.hero-section__info p{
+    color: #454545;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 34px;
+}
+.hero-section__shop-btn{
+    background-color: #F6623E;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    padding: 13px 25px;
+}
